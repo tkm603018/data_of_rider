@@ -1,0 +1,7 @@
+alter table rider add constraint rider_team_key foreign key (team_num) references team (team_num);
+
+alter table team add constraint team_maker_key foreign key (maker_num) references maker (maker_num);
+
+alter table points add constraint event_points_key foreign key (event_num) references event (event_num);
+
+alter table points add constraint points_rider_key foreign key (rider_num) references rider (rider_num);

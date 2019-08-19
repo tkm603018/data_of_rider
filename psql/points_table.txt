@@ -1,0 +1,10 @@
+create  table points(
+event_num varchar(2) not null,
+rider_num varchar(3) not null,
+overall int2,
+oneday int2,
+general int2,
+timetrial int2,
+sprint int2,
+primary key( event_num )
+);

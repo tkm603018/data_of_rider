@@ -1,0 +1,6 @@
+create  table maker(
+maker_id varchar(2) not null unique,
+maker_name varchar(30),
+maker_location varchar(30),
+primary key( maker_id )
+);

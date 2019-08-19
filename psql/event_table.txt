@@ -1,0 +1,5 @@
+create  table event(
+event_id varchar(1) not null unique, 
+event_name varchar(20),
+primary key( event_id )
+);

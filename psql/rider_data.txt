@@ -1,0 +1,32 @@
+001,01,Julian Alaphilippe,27,France,173,62
+002,01,Kasper Asgreen,24,Kolding,Denmark,192,75,317,228,262,46
+003,01,Dries Devenyns,215,36,Leuven,Belgium,176,64,1239,1648,276,461
+004,01,Yves Lampaert,43,28,Izegem,Belgium,180,75,1710,589,697,1000
+005,01,Enric Mas,36,24,Artà,Spain,177,61,86,1233,130,54
+006,01,Michael Mørkøv,134,34,Kokkedal,Denmark,183,69,886,794,131,1065
+007,01,Maximiliano Richeze,216,36,Bella Vista,Argentina,175,68,1088,433,26,1687
+008,01,Elia Viviani,3,30,Isola della Scala,Italy,178,67,3730,816,49,4540
+009,02,Geraint Thomas,48,33,Cardiff,Great Britain,183,71,1207,4322,1714,527
+010,02,Egan Bernal,8,22,Bogotá,Colombia,174,60,271,2396,164,69
+011,02,Jonathan Castroviejo,188,32,Getxo,Spain,171,62,229,1431,2724,155
+012,02,Michał Kwiatkowski,45,29,chełmża,Poland,176,68,3639,3000,1555,1031
+013,02,Gianni Moscon,74,25,Trento,Italy,182,70,1136,604,295,304
+014,02,Wout Poels,37,31,Venray,Netherlands,183,66,911,3300,364,290
+015,02,Luke Rowe,222,29,Cardiff,Great Britain,185,72,1017,369,64,649
+016,02,Dylan van Baarle,95,27,Voorburg,Netherlands,187,78,854,949,294,415
+017,03,Jakob Fuglsang,5,34,Geneva,Denmark,182,68,2427,5325,787,646
+018,03,Pello Bilbao,94,29,Guernica,Spain,174,60,580,1349,229,254
+019,03,Omar Fraile,363,29,Santzurtzi,Spain,184,69,259,339,39,75
+020,03,Hugo Houle,287,28,Sainte-Perpétue,Canada,185,71,373,355,380,313
+021,03,Ion Izagirre,26,30,Ormaiztegi,Spain,173,60,1168,3803,1262,388
+022,03,Alexey Lutsenko,44,26,Petropavl,kazakhstan,175,70,1046,1449,317,306
+023,03,Magnus Cort,283,26,Bornholm,Denmark,180,68,838,640,26,1097
+024,03,Luis León Sánchez,60,35,Mula,Spain,187,74,1602,5255,1334,776
+025,04,Peter Sagan,12,29,Žilina,Slovakia,184,73,8424,1496,557,7619
+026,04,Emanuel Buchmann,15,26,Ravensburg,Germany,181,59,392,2187,123,75
+027,04,Marcus Burghardt,518,36,Zschopau,Germany,189,75,1543,695,91,770
+028,04,Patrick Konrad,58,27,Mödling,Austria,180,65,737,1453,145,355
+029,04,Gregor Mühlberger,150,25,Haidershofen,Austria,180,64,474,383,40,144
+030,04,Daniel Oss,454,32,Trento,Italy,190,75,1158,585,209,888
+031,04,Lukas Pöstlberger,428,27,Vöcklabruck,Austria,182,70,441,135,98,129
+032,04,Maximilian Schachmann,16,25,Berlin,Germany,183,70,634,590,334,103

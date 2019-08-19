@@ -1,0 +1,5 @@
+01,overall
+02,oneday
+03,gereral
+04,timetrial
+05,sprint

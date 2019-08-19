@@ -1,0 +1,8 @@
+001,01,Julian Alaphilippe,27,France,173,62
+002,01,Kasper Asgreen,24,Denmark,24,192
+003,01,Dries Devenyns,36,Belgium,176,64
+004,01,Yves Lampaert,28,Belgium,180,75
+005,01,Enric Mas,24,Spain,177,61
+006,01,Michael Mørkøv,34,Denmark,183,69
+007,01,Maximiliano Richeze,36,Argentina,175,68
+008,01,Elia Viviani,30,Italy,178,67

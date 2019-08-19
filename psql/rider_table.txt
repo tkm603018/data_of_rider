@@ -1,0 +1,10 @@
+create  table rider(
+rider_num varchar(3) not null,
+team_num varchar(2) not null,
+rider_name varchar(30) not null,
+age int2,
+nationality varchar(30) not null,
+height int2,
+weight int2,
+primary key( rider_num )
+);

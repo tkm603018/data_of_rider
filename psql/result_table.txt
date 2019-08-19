@@ -1,0 +1,7 @@
+create  table result(
+result_id int2 not null unique,
+event_id varchar(2) not null,
+rider_id varchar(3) not null,
+record int2,
+primary key( result_id )
+);

@@ -1,0 +1,8 @@
+create  table team(
+team_num varchar(2) not null,
+team_name varchar(30) not null,
+team_location varchar(20) not null,
+team_ranking int2,
+maker_num varchar(2) not null,
+primary key( team_num )
+);

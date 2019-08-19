@@ -1,0 +1,90 @@
+﻿データベース演習課題4（Webインターフェース開発(2)）
+
+学生番号：<ID>19236210</ID>
+氏名：<NAME>中村 匠</NAME>
+
+※ 本ファイルに課題を行なった結果を記入して、本ファイルを提出すること。
+※ 学生番号・氏名を上の欄に記入すること。また、以下の問題の回答を記入
+    すること。
+※ 記入が指示されている箇所以外は、一切修正しないこと。
+
+
+演習手順
+1. 前回までの演習を、全て終わらせる。
+   （テーブルの作成、データの追加、メニュー・一覧表示の作成）
+
+2. 削除処理を行なうPHPプログラム（exmployee_delete.php）に削除処理のための
+    SQLを追加し、削除が正しく動作するようにする。
+
+3. 更新処理を行なうPHPプログラム（exmployee_update.php）に更新処理のための
+    SQLを追加し、更新が正しく動作するようにせよ
+
+4. 更新機能で、更新する従業員をリストから選択できるように拡張したものを作成し
+    （exmployee_update_form1.php）、正しく動作するようにせよ
+
+5.  検索機能として、選択された部門の従業員の一覧を表示するSQLを追加
+    （exmployee_search_form.php,  exmployee_search.php ）し、
+    検索が正しく動作するようにせよ
+
+※ 必ず自分のアカウント名で作成したデータベースを使って演習を行うこと。
+   課題が提出されても、データベースやウェブページが作成されていなければ、
+   大幅に減点をする（未提出の人よりも低いマイナス点とする）。
+
+
+課題1
+自分が作成したウェブページ（メニューページ）のURLを記述せよ。
+（http://popuradb.ces.kyutech.ac.jp/~ユーザ名/menu.html の形式となる。）
+
+－－－－－－－－以下、課題1の回答－－－－－－－－
+<ANSWER NO=1>
+
+http://popuradb.ces.kyutech.ac.jp/~abcp7358/menu.html
+
+</ANSWER>
+－－－－－－－－以上、課題1の回答－－－－－－－－
+
+
+課題2
+削除処理を行なうPHPプログラム（exmployee_delete.php）の修正内容を記述せよ。
+（実行するSQL文を表す文字列をどのように設定したのか、$SQL="???"; のように、
+修正箇所の修正後のプログラムを記述する。）
+
+－－－－－－－－以下、課題2の回答－－－－－－－－－－
+<ANSWER NO=2>
+
+$sql = "delete from employee where id='".$id."'";
+
+</ANSWER>
+－－－－－－－－以上、課題2の回答－－－－－－－－－－
+
+
+課題3
+更新処理を行なうPHPプログラム（exmployee_update.php）の修正内容を記述せよ。
+（実行するSQL文を表す文字列をどのように設定したのか、$SQL="???"; のように、
+修正箇所の修正後のプログラムを記述する。）
+
+－－－－－－－－以下、課題3の回答－－－－－－－－－－
+<ANSWER NO=3>
+
+$sql = "update employee set  dept_no='".$dept_no."',name='".$name."',age='".$age."' where id='".$id."'";
+
+</ANSWER>
+－－－－－－－－以上、課題3の回答－－－－－－－－－－
+
+
+課題4
+検索結果の表示を行なうPHPプログラム（exmployee_search.php）の修正内容を記述せよ。
+（実行するSQL文を表す文字列をどのように設定したのか、$SQL="???"; のように、
+修正箇所の修正後のプログラムを記述する。）
+
+－－－－－－－－以下、課題3の回答－－－－－－－－－－
+<ANSWER NO=4>
+
+$sql ="select id, department.name, employee.name, age from employee, department where employee.dept_no = department.dept_no order by dept_no";
+$sql ="select id, department.name, employee.name, age from employee, department where employee.dept_no = department.dept_no and department.dept_no='".$dept_no."'";
+
+</ANSWER>
+－－－－－－－－以上、課題3の回答－－－－－－－－－－
+
+
+以上。

@@ -1,0 +1,4 @@
+01,Deceuninck - Quick Step,Belgium,03
+02,Team INEOS,Great Britain,02
+03,Astana Pro Team,Kazakhstan,01
+04,BORA - hansgrohe,Germany,03

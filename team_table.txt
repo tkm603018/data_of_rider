@@ -1,0 +1,7 @@
+create  table team(
+team_id varchar(2) not null unique,
+team_name varchar(30),
+team_location varchar(20),
+maker_id varchar(2) not null,
+primary key( team_id )
+);
